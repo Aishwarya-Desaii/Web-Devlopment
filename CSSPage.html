@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Assignments - 6 Boxes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    /* Animated purple gradient background */
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(-45deg, #9b5de5, #be95c4, #d0bdf4, #c77dff);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: black;
+    }
+
+    .assignment-list-container {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .assignment-box {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px 20px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .assignment-box:hover {
+      transform: translateY(-10px);
+    }
+
+    .assignment-box i {
+      font-size: 32px;
+      color: #000;
+      background-color: #dcd0ff;
+      padding: 14px;
+      border-radius: 50%;
+      animation: bounce 1.5s infinite;
+      margin-bottom: 15px;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .assignment-box a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: block;
+      margin-top: 10px;
+      transition: color 0.3s ease;
+    }
+
+    .assignment-box a:hover {
+      color: #7b2cbf;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Assignments</h1>
+
+  <div class="assignment-list-container">
+
+    <div class="assignment-box">
+      <i class="fas fa-id-badge"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\Resume.html">Resume with CSS</a>
+    </div>
+
+    <div class="assignment-box">
+      <i class="fas fa-user-edit"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\Login page.html">Employee Form</a>
+    </div>
+
+    <div class="assignment-box">
+      <i class="fas fa-calendar-alt"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\time table.html">Time Table</a>
+    </div>
+
+    <div class="assignment-box">
+      <i class="fas fa-palette"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\inlinecss.html">Inline CSS</a>
+    </div>
+
+    <div class="assignment-box">
+      <i class="fas fa-paint-roller"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\internalcss.html">Internal CSS</a>
+    </div>
+
+    <div class="assignment-box">
+      <i class="fas fa-images"></i>
+      <a href="C:\Users\SUNITA\Desktop\HTML\externalcss.html">External CSS</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* General styling for the birds container */
+birds { 
+    color: white; 
+    background-color: #3498db; /* Blue background */
+    width: 100%; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    animation: backgroundAnimation 5s infinite alternate; /* Animated background */
+}
+
+/* Animation for the background color */
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #3498db; /* Blue */
+    }
+    50% {
+        background-color: #e74c3c; /* Red */
+    }
+    100% {
+        background-color: #f39c12; /* Yellow */
+    }
+}
+
+/* Styling for the heading */
+heading { 
+    color: #2c3e50; /* Darker color */
+    font-size: 40px; 
+    background-color: #ecf0f1; /* Light grey background */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Display block for all elements inside heading and others */
+heading, title, author, publisher, edition { 
+    display: block; 
+}
+
+/* Styling for the bird's title */
+title { 
+    font-size: 25px; 
+    font-weight: bold; 
+    color: #2980b9; /* Blue color for titles */
+    margin-bottom: 8px;
+}
+
+/* Styling for the author's name */
+author { 
+    font-size: 20px; 
+    color: #16a085; /* Teal color */
+    margin-bottom: 6px;
+}
+
+/* Styling for the publisher's name */
+publisher { 
+    font-size: 20px; 
+    color: #f39c12; /* Yellow color */
+    margin-bottom: 6px;
+}
+
+/* Styling for the edition info */
+edition { 
+    font-size: 20px; 
+    color: #e74c3c; /* Red color */
+    margin-bottom: 6px;
+}

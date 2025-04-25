@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #5d6d7e;
+        }
+
+        h2, h3 {
+            color: #6c7a89;
+        }
+
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #dcdfe1;
+        }
+
+        th {
+            background-color: #aed6f1;
+            color: #2c3e50;
+        }
+
+        td {
+            background-color: #f4f6f9;
+            color: #34495e;
+        }
+
+        td[colspan="2"] {
+            background-color: #d0e3f5;
+            color: #2c3e50;
+        }
+
+        td[rowspan="7"] {
+            background-color: #f1f3f6;
+        }
+
+        td, th {
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        td > pre {
+            margin: 0;
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .bold-text {
+            font-weight: bold;
+            color: #5d6d7e;
+        }
+
+        .highlight {
+            color: #2980b9;
+            font-weight: bold;
+        }
+
+        .highlight2 {
+            color: #8e44ad;
+            font-weight: bold;
+        }
+
+        .break {
+            background-color: #f7c1b2;
+            color: white;
+            text-align: center;
+        }
+
+        .highlight-row {
+            background-color: #eaf1f7;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Assignment No.8</h1>
+    </center>
+    <h2 class="center-text">D. Y. Patil College of Engineering & Technology, Kolhapur</h2>
+    <h3 class="center-text">CSE Department</h3>
+    <h3 class="center-text">Time Table 2024-2025(SEM-II)</h3>
+    <table>
+        <tr>
+            <td>Day &<br>Time</td>
+            <td>9.00 to<br>10.00</td>
+            <td>10.00 to<br>11.00</td>
+            <td rowspan="7" class="break"><pre><h2>B<br>R<br>E<br>A<br>K</h2></pre></td>
+            <td>11.15 to<br>12.15</td>
+            <td>12.15 to<br>1.15</td>
+            <td rowspan="7" class="break"><pre><h2>B<br>R<br>E<br>A<br>K</h2></pre></td>
+            <td>2.00 to<br>3.00</td>
+            <td>3.00 to<br>4.00</td>
+        </tr>
+        <tr>
+            <td class="bold-text">Monday</td>
+            <td colspan="2">S1-DSL(SSKokate)(Lab8)<br>S2-AOCC(KBK)(Lab5)<br>S3-TPMS(PRP)(Lab11)<br>S4-TTL(SPS)(Lab10)<br>S5-TTL(IPT)(Lab12)<br>S6-WD(SSKore)(Lab2)</td>
+            <td class="highlight">DS(L)<br>SSKokate</td>
+            <td class="highlight2">MDM-II(L)<br>(VVM)</td>
+            <td class="highlight-row">AT(L)<br>(KAB)</td>
+            <td class="highlight-row">ES(L)<br>PA</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">S1-WD(SSKore)(Lab2)<br>S2-DSL(SSKokate)(Lab8)<br>S3-AOCC(KBK)(Lab5)<br>S4-TPMS(PRP)(Lab11)<br>S5-TTL(SPS)(Lab10)<br>S6-TTL(IPT)(Lab12)</td>
+            <td class="highlight">AT(L)<br>(KAB)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <td>ES(L)<br>PA</td>
+            <td class="highlight2">WD-II(L)<br>SSKore</td>
+        </tr>
+        <tr>
+            <td class="bold-text">Wednesday</td>
+            <td colspan="2">S1-TTL(IPT)(Lab12)<br>S2-WD(SSKore)(Lab2)<br>S3-DSL(SSKokate)(Lab8)<br>S4-AOCC(KBK)(Lab5)<br>S5-TPMS(PRP)(Lab11)<br>S6-TTL(SPS)(Lab10)</td>
+            <td class="highlight2">AOCC(L)<br>(KAB)</td>
+            <td class="highlight">MDM-II(L)<br>(VVM)</td>
+            <td class="highlight-row">Dept.Activity</td>
+            <td class="highlight-row">Dept.Activity</td>
+        </tr>
+        <tr>
+            <td class="bold-text">Thursday</td>
+            <td colspan="2">S1-TTL(SPS)(Lab10)<br>S2-TTL(IPT)(Lab12)<br>S3-WD(SSKore)(Lab2)<br>S4-DSL(SSKokate)(Lab8)<br>S5-AOCC(KBK)(Lab5)<br>S6-TPMS(PRP)(Lab11)</td>
+            <td class="highlight">DS(L)<br>SSKokate</td>
+            <td class="highlight2">MDM-II(L)<br>(VVM)</td>
+            <td class="highlight">AT(L)<br>(KAB)</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <td class="bold-text">Friday</td>
+            <td colspan="2">S1-TPMS(PRP)(Lab11)<br>S2-TTL(SPS)(Lab10)<br>S3-TTL(IPT)(Lab12)<br>S4-WD(SSKore)(Lab2)<br>S5-DSL(SSKokate)(Lab8)<br>S6-AOCC(KBK)(Lab5)</td>
+            <td colspan="2">S1-AOCC(KBK)(Lab5)<br>S2-TPMS(PRP)(Lab11)<br>S3-TTL(SPS)(Lab10)<br>S4-TTL(IPT)(Lab12)<br>S5-WD(SSKore)(Lab2)<br>S6-DSL(SSKokate)(Lab8)</td>
+            <td class="highlight-row">ES(L)<br>PA</td>
+            <td>OEC-II</td>
+        </tr>
+        <tr>
+            <td class="bold-text">Saturday</td>
+            <td class="highlight-cell">LL(L)<br>(ASY,RSJ,MVB)</td>
+            <td class="highlight-cell">LL(L)<br>(ASY,RSJ,MVB)</td>
+            <td class="highlight-cell">LL(L)<br>*Self</td>
+            <td class="highlight-cell">LL(L)<br>*Self</td>
+            <td class="highlight-row">Dept.Activity</td>
+            <td class="highlight-row">Dept.Activity</td>
+        </tr>
+    </table>
+</body>
+</html>

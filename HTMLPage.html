@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Assignments</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4ff;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    .assignment-list-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .assignment-box {
+      position: relative;
+      background: #fff;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .assignment-box:hover {
+      transform: translateX(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .assignment-box::before {
+      content: "\f15c"; /* File-alt icon */
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      font-size: 24px;
+      color: #fff;
+      margin-right: 20px;
+      padding: 12px;
+      border-radius: 50%;
+    }
+
+    /* Unique classes for each assignment */
+    .a1 { border-left-color: #4c6ef5; background-color: #e3efff; }
+    .a1::before { background-color: #4c6ef5; }
+
+    .a2 { border-left-color: #00b894; background-color: #d0f8ec; }
+    .a2::before { background-color: #00b894; }
+
+    .a3 { border-left-color: #e17055; background-color: #ffe6dc; }
+    .a3::before { background-color: #e17055; }
+
+    .a4 { border-left-color: #9b59b6; background-color: #f2e5fa; }
+    .a4::before { background-color: #9b59b6; }
+
+    .a5 { border-left-color: #e67e22; background-color: #fbe4d3; }
+    .a5::before { background-color: #e67e22; }
+
+    .a6 { border-left-color: #1abc9c; background-color: #d1f7f2; }
+    .a6::before { background-color: #1abc9c; }
+
+    .a7 { border-left-color: #d35400; background-color: #f8e0cb; }
+    .a7::before { background-color: #d35400; }
+
+    .a8 { border-left-color: #3498db; background-color: #e1f0fb; }
+    .a8::before { background-color: #3498db; }
+
+    .a9 { border-left-color: #2ecc71; background-color: #dcfce7; }
+    .a9::before { background-color: #2ecc71; }
+
+    .a10 { border-left-color: #e84393; background-color: #fce0ed; }
+    .a10::before { background-color: #e84393; }
+
+    .assignment-box a {
+      color: #2c3e50;
+      font-size: 1.2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .assignment-box a:hover {
+      color: inherit;
+    }
+
+    .assignment-box:not(:last-child) {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>HTML Assignments</h1>
+
+  <div class="assignment-list-container">
+    <div class="assignment-box a1"><a href="Assignment No. 1.html" target="_blank">Assignment No. 1</a></div>
+    <div class="assignment-box a2"><a href="Assignment No. 2.html" target="_blank">Assignment No. 2</a></div>
+    <div class="assignment-box a3"><a href="Assignment No. 3.html" target="_blank">Assignment No. 3</a></div>
+    <div class="assignment-box a4"><a href="Assignment No. 4.html" target="_blank">Assignment No. 4</a></div>
+    <div class="assignment-box a5"><a href="Assignment No. 5.html" target="_blank">Assignment No. 5</a></div>
+    <div class="assignment-box a6"><a href="Assignment No. 6.html" target="_blank">Assignment No. 6</a></div>
+    <div class="assignment-box a7"><a href="Assignment No. 7.html" target="_blank">Assignment No. 7</a></div>
+    <div class="assignment-box a8"><a href="Assignment No. 8.html" target="_blank">Assignment No. 8</a></div>
+    <div class="assignment-box a9"><a href="Assignment No. 9.html" target="_blank">Assignment No. 9</a></div>
+    <div class="assignment-box a10"><a href="Assignment No. 10.html" target="_blank">Assignment No. 10</a></div>
+  </div>
+
+</body>
+</html>

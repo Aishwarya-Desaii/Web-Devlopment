@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="XML.css"?>
+
+
+<birds> 
+	<heading>Welcome To Bird World</heading> 
+	<bird> 
+		<name>Bird Name -: Bald Eagle</name> 
+		<habitat>Habitat -: North America</habitat> 
+		<diet>Diet -: Carnivorous</diet> 
+		<life-span>Life Span -: 20 to 30 years</life-span> 
+		<flight>Flight Ability -: Yes, capable of soaring</flight>
+	</bird> 
+	<bird> 
+		<name>Bird Name -: Hummingbird</name> 
+		<habitat>Habitat -: Central &amp; South America</habitat> 
+		<diet>Diet -: Nectar, insects</diet> 
+		<life-span>Life Span -: 3 to 5 years</life-span> 
+		<flight>Flight Ability -: Yes, capable of hovering</flight>
+	</bird> 
+	<bird> 
+		<name>Bird Name -: Penguin</name> 
+		<habitat>Habitat -: Antarctica, Southern Hemisphere</habitat> 
+		<diet>Diet -: Fish, krill</diet> 
+		<life-span>Life Span -: 15 to 20 years</life-span> 
+		<flight>Flight Ability -: No, flightless</flight>
+	</bird> 
+	<bird> 
+		<name>Bird Name -: Peacock</name> 
+		<habitat>Habitat -: India, Sri Lanka</habitat> 
+		<diet>Diet -: Seeds, fruits, small animals</diet> 
+		<life-span>Life Span -: 15 to 20 years</life-span> 
+		<flight>Flight Ability -: Yes, short flights</flight>
+	</bird> 
+	<bird> 
+		<name>Bird Name -: Ostrich</name> 
+		<habitat>Habitat -: Africa</habitat> 
+		<diet>Diet -: Plants, seeds, insects</diet> 
+		<life-span>Life Span -: 30 to 40 years</life-span> 
+		<flight>Flight Ability -: No, flightless</flight>
+	</bird> 
+</birds>
